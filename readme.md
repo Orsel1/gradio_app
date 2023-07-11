@@ -29,7 +29,7 @@ import numpy as np
 
 - Step 4: Define your model and input/output functions
 
-Define your model and any necessary preprocessing functions. Gradio requires a function that takes inputs and returns outputs. Ensure that the input and output formats match the requirements of your model. Lets say you have trained your model on customer churn data such as in this [notebook](), then your code may look as the one below
+Define your model and any necessary preprocessing functions. Gradio requires a function that takes inputs and returns outputs. Ensure that the input and output formats match the requirements of your model. Lets say you have trained your model on customer churn data such as in this [notebook](pipeline.ipynb), then your code may look as the one below
 
 ```
 def make_prediction(gender, Partner, Dependents, tenure, MultipleLines,
